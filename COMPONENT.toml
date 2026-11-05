@@ -1,0 +1,16 @@
+[component]
+name = "SigmaOS-office-web"
+tier = 3
+stability = "scaffold"
+language = "rust"
+description = "SigmaOS offline-capable browser-based office editor — local asset bundling, service worker, autosave, and recovery"
+upstream = []
+
+[contract]
+provides = ["offline-office-web", "asset-bundler"]
+depends_on = []
+
+[maturity]
+status = "Scaffold"
+test_evidence = "Compiles"
+next_milestone = "Verification test suite"
